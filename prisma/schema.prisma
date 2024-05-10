@@ -61,7 +61,7 @@ model Genre {
   id                    String            @id @default(cuid())
   name                  String
 
-  metric                Metric[]
+  metrics               Metric[]
   movies                Movie[]
 }
 
